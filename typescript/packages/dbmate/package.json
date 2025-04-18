@@ -1,27 +1,25 @@
 {
-  "name": "dbmate",
-  "version": "",
-  "description": "A lightweight, framework-agnostic database migration tool",
-  "repository": "https://github.com/amacneil/dbmate",
-  "homepage": "https://github.com/amacneil/dbmate#readme",
-  "author": "Adrian Macneil",
-  "license": "MIT",
-  "keywords": [
-    "clickhouse",
-    "database",
-    "migration",
-    "mysql",
-    "postgres",
-    "schema",
-    "sqlite"
-  ],
-  "bin": "./dist/cli.js",
-  "main": "./dist/index.js",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsc --build"
-  },
-  "optionalDependencies": {}
+	"name": "shu-dbmate",
+	"version": "",
+	"description": "A lightweight, framework-agnostic database migration tool",
+	"repository": "https://github.com/ShurikenTrade/dbmate",
+	"homepage": "https://github.com/ShurikenTrade/dbmate#readme",
+	"author": "Adrian Macneil",
+	"license": "MIT",
+	"keywords": [
+		"clickhouse",
+		"database",
+		"migration",
+		"mysql",
+		"postgres",
+		"schema",
+		"sqlite"
+	],
+	"bin": "./dist/cli.js",
+	"main": "./dist/index.js",
+	"files": ["dist"],
+	"scripts": {
+		"build": "tsc --build"
+	},
+	"optionalDependencies": {}
 }
