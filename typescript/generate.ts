@@ -100,7 +100,7 @@ async function main() {
       throw new Error(`Unknown arch ${build.arch}`);
     }
 
-    const name = `@shuriken-dbmate/${jsOS}-${jsArch}`;
+    const name = `@shuriken/dbmate-${jsOS}-${jsArch}`;
     const targetDir = `dist/@dbmate/${jsOS}-${jsArch}`;
     const binext = jsOS === "win32" ? ".exe" : "";
     const templateVars = { jsOS, jsArch, name, version };

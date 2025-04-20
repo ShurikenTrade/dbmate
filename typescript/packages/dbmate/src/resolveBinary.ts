@@ -5,7 +5,7 @@ import { arch, platform } from "node:process";
  * */
 export function resolveBinary(): string {
   const ext = platform === "win32" ? ".exe" : "";
-  const path = `@shuriken-dbmate/${platform}-${arch}/bin/dbmate${ext}`;
+  const path = `@shuriken/dbmate-${platform}-${arch}/bin/dbmate${ext}`;
 
   try {
     return require.resolve(path);

@@ -1,5 +1,5 @@
 {
-	"name": "shuriken-dbmate",
+	"name": "@shuriken/dbmate",
 	"version": "",
 	"description": "A lightweight, framework-agnostic database migration tool",
 	"repository": "https://github.com/ShurikenTrade/dbmate",
